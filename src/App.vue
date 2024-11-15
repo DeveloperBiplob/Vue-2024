@@ -1,18 +1,11 @@
 <template>
 <div>
-  <HelloWorld msg="Hello from Main Components" phone="01643381009" :names="names"/>
+  <NavbarComponent/>
 </div>
 </template>
 
 <script setup>
-  import HelloWorld from "./components/HelloWold.vue"
-  console.log("HelloWorld", HelloWorld)
-
-  const names = [
-    'biplob',
-    'mastura',
-    'Meherim',
-  ]
+  import NavbarComponent from "./components/Header/Navbar.vue";
 </script>
 
 <style scoped>
