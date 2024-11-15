@@ -2,7 +2,9 @@
   <div>
     <!--Naver bar -->
     <nav id="navbar">
-        <div class="left">
+        <div class="container">
+            <div class="navbarcontent">
+                <div class="left">
             <ul>
                 <li>Home</li>
                 <li>About</li>
@@ -11,6 +13,8 @@
         <div class="right">
             <div id="account">Account</div>
             <div id="cart">1</div>
+        </div>
+            </div>
         </div>
     </nav>
     <!--Naver bar end -->
@@ -23,20 +27,22 @@
 
 <style scoped>
 #navbar{
-    padding: 20px 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 20px 0;
+}
+#navbar .navbarcontent{
     display: flex;
     justify-content: space-between;
     align-content: center;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
-#navbar .left ul{
+#navbar .navbarcontent .left ul{
     list-style: none;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 2em;
 }
-#navbar .right{
+#navbar .navbarcontent .right{
     list-style: none;
     display: flex;
     justify-content: center;

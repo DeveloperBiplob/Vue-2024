@@ -1,11 +1,11 @@
 <template>
 <div>
-  <NavbarComponent/>
+  <HomeView/>
 </div>
 </template>
 
 <script setup>
-  import NavbarComponent from "./components/Header/Navbar.vue";
+  import HomeView from "./views/Home.vue"
 </script>
 
 <style scoped>
