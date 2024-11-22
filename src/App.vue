@@ -1,12 +1,16 @@
-<template>
-<div>
-  <HomeView/>
-</div>
-</template>
-
-<script setup>
-  import HomeView from "./views/Home.vue"
+<script>
+  import Home from "./components/Home.vue";
+  export default{
+    name: "App",
+    components: {
+      Home
+    }
+  }
 </script>
+
+<template>
+  <Home/>
+</template>
 
 <style scoped>
 
