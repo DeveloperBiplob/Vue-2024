@@ -1,18 +1,9 @@
 <script>
-    import HelloWorld from "./HelloWorld.vue";
 
-    export default {
-        name: "Home",
-        components: {
-            HelloWorld
-        }
-    }
 </script>
 
 <template>
-    <div>
-        <HelloWorld/>
-    </div>
+    <h1>Home page</h1>
 </template>
 
 <style lang="scss" scoped>
